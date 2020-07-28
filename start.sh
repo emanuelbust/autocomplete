@@ -1,5 +1,7 @@
+#!/bin/sh
+
 # Build
-go build .\src\autocomplete.go
+go build /src/autocomplete.go
 
 # Run
-.\autocomplete.exe .\resources\shakespeare-complete.txt
+./autocomplete.exe .\resources\shakespeare-complete.txt
